@@ -65,15 +65,9 @@ public class Order {
             System.out.println("Total cost will be " + totalprice);
 
 
-
-
-//            String query = " insert into  CustomersNew (fname, lname, address, mobile)"
-//                    + " values (?, ?, ?, ?)";
-
             String querynew = " insert into  OrderNewCorrected (customer_id,totalprice,menu_id)"
                     + " values (?, ?, ?)";
 
-            // create the mysql insert preparedstatement
             try {
 
 
