@@ -11,7 +11,9 @@ import java.util.Calendar;
 public class JdbcTest1 {
     public static Connection conn;
 
+    //TODO following JAVA DOC should describe the functionality of the method
     /**
+     * Establish the connection with the DB.
      * @param null
      * return null
      */

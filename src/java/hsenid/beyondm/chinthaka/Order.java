@@ -20,8 +20,8 @@ public class Order {
     private String pizza_item_id;
 
     /**
-     *
-     * @param id
+     * Get user inputs for the selected menu.
+     * @param id ID of the pizza item
      * @return String menu_Item_details
      */
     public String getMenuItemDetails(int id) {

@@ -25,6 +25,7 @@ public class FactoryPatternDemo {
         customer.signUp();
 
 
+        //TODO Move following 5 lines to a suitable class
         System.out.println("Welcome to Pizza Hut");
         System.out.println("Today's MENU");
         System.out.println("Chicken Bacon -->1 || Cheese Lovers -->2 || Devilled Chicken -->3 || Cheese & Tomato -->4 || CheesyOnion -->5");
@@ -33,7 +34,7 @@ public class FactoryPatternDemo {
 
 
 
-
+        //TODO Please replace class names with contextual names
         ShapeFactory shapeFactory = new ShapeFactory();
 
         //get an object of Circle and call its draw method.

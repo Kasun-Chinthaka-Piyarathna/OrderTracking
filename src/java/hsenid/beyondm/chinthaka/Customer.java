@@ -28,7 +28,7 @@ public class Customer {
         String mobile = scanner.next();
         System.out.println(fname+" "+lname+" "+address+" "+mobile);
 
-
+        //TODO Move following DB operations to a separate method
         String query = " insert into  CustomersNew (fname, lname, address, mobile)"
                 + " values (?, ?, ?, ?)";
         try {
